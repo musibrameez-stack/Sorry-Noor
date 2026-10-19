@@ -1,1 +1,102 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorry Noori ❤️</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #ffc0cb, #ff69b4);
+            text-align: center;
+            color: #8b004b;
+            min-height: 100vh;
+            box-sizing: border-box;
+        }
+
+        .card {
+            background: white;
+            max-width: 420px;
+            margin: 60px auto;
+            padding: 30px 20px;
+            border-radius: 25px;
+            box-shadow: 0 8px 25px #b8326b55;
+        }
+
+        h1 {
+            color: #ff1493;
+            font-size: 34px;
+        }
+
+        .heart {
+            font-size: 65px;
+            animation: beat 1s infinite alternate;
+        }
+
+        @keyframes beat {
+            to { transform: scale(1.15); }
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.7;
+        }
+
+        button {
+            background: #ff1493;
+            color: white;
+            border: none;
+            padding: 14px 24px;
+            border-radius: 25px;
+            font-size: 17px;
+            cursor: pointer;
+        }
+
+        #message {
+            display: none;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="heart">❤️</div>
+
+        <h1>I'm Sorry, Noori 🥺</h1>
+
+        <p>
+            Meri pyari Noori, mujhe maaf kar do.
+            Mera irada tumhein hurt karne ka nahi tha.
+            Tum mere liye bohat special ho. 💗
+        </p>
+
+        <p>
+            I give you a lot of tension,
+            and I'm really sorry for that.
+            This little website is a small gift for you. 🌸
+        </p>
+
+        <button onclick="showMessage()">
+            Click Here, Noori 💌
+        </button>
+
+        <p id="message">
+            Please forgive me, Noori! 🥹💕
+            <br>
+            You are very special to me. 🌷❤️
+        </p>
+    </div>
+
+    <script>
+        function showMessage() {
+            document.getElementById("message").style.display = "block";
+        }
+    </script>
+
+</body>
+</html>
